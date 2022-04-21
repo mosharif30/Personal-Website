@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <>
       <div className="Header">
-        <img src={Logo}></img>
-        <ul>
+        <img className="logo" src={Logo}></img>
+        <ul className="routs">
           <li>
             <Link className={location.pathname === "/" ? "active" : ""} to="/">
               Home

@@ -1,0 +1,29 @@
+.Footer {
+  border-top: 1px solid rgba(179, 179, 179, 0.5);
+  width: 100%;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 80px;
+}
+.icons img {
+  cursor: pointer;
+  margin-left: 0px !important;
+  padding: 10px;
+  width: 60px;
+}
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #7f8c8d;
+}
+@media screen and (max-width: 600px) {
+  .icons img {
+    width: 40px;
+  }
+}

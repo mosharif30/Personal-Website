@@ -17,3 +17,17 @@
 .Button--primary:hover {
   background-color: var(--secondary);
 }
+@media screen and (max-width: 1000px) {
+  .Button {
+    padding: 10px 10px;
+  }
+}
+@media screen and (max-width: 726px) {
+  .Button {
+    height: 70px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+  }
+}
