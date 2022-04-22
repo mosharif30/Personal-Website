@@ -1,8 +1,10 @@
 import "./Button.css";
-const Button = ({ children, type = "primary" }) => {
+const Button = ({ linkForBtn, children, type = "primary" }) => {
   return (
     <>
-      <button className={`Button Button--${type}`}>{children}</button>
+      <a href={linkForBtn}>
+        <button className={`Button Button--${type}`}>{children}</button>
+      </a>
     </>
   );
 };
